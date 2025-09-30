@@ -4,27 +4,6 @@ function showTab(tab) {
   });
   document.getElementById(tab).classList.add("active");
 }
-function showContent(id) {
-      const contents = document.querySelectorAll('.content');
-      contents.forEach(c => c.style.display = 'none');
-      if(id) {
-        document.getElementById(id).style.display = 'block';
-      }
-function showContent(id) {
-  // sembunyikan semua konten
-  document.getElementById('home').style.display = 'none';
-  document.getElementById('letter').style.display = 'none';
-
-  // ambil elemen yang dipilih
-  let el = document.getElementById(id);
-  el.style.display = 'block';
-
-  // kasih efek fade setiap kali muncul
-  el.classList.remove('fade');
-  void el.offsetWidth; // trik biar animasi bisa restart
-  el.classList.add('fade');
-}
-
 
 // Animasi hati jatuh
 function createHeart() {
