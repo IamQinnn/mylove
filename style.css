@@ -45,6 +45,13 @@ section {
   animation: fadeIn 0.8s;
 }
 
+.homepage-title {
+  margin-top: 30px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 2em;
+  color: crimson;
+}
+
 .active {
   display: block;
 }
