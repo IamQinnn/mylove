@@ -1,3 +1,16 @@
+// ===== LOGIN PAGE (PIN) =====
+ function checkPin() {
+  const pinBenar = "ILoveYou"; // ubah PIN sesuai keinginanmu
+  const pinInput = document.getElementById("pin").value;
+
+  if (pinInput === pinBenar) {
+    window.location.href = "memories.html"; 
+  } else {
+    alert("PIN salah sayang 😘 coba lagi ya 💕");
+  }
+}
+
+
 function showTab(tab) {
   document.querySelectorAll(".content").forEach(div => {
     div.classList.remove("active");
