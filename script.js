@@ -1,10 +1,10 @@
 // ===== LOGIN PAGE (PIN) =====
  function checkPin() {
-  const pinBenar = "ILoveYou"; // ubah PIN sesuai keinginanmu
+  const pinBenar = "upil"; // ubah PIN sesuai keinginanmu
   const pinInput = document.getElementById("pin").value;
 
   if (pinInput === pinBenar) {
-    window.location.href = "index.html"; 
+    window.location.href = "love.html"; 
   } else {
     alert("PIN salah sayang 😘 coba lagi ya 💕");
   }
