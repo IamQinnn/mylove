@@ -4,7 +4,7 @@
   const pinInput = document.getElementById("pin").value;
 
   if (pinInput === pinBenar) {
-    window.location.href = "memories.html"; 
+    window.location.href = "index.html"; 
   } else {
     alert("PIN salah sayang 😘 coba lagi ya 💕");
   }
